@@ -5,7 +5,7 @@ public class OperatorActivity {
         int i = 5;
         int w = --i;
 
-            System.out.println("Result =" +(i+w)); 
+            System.out.println("Result =" +(i+w));
 
 
     }
