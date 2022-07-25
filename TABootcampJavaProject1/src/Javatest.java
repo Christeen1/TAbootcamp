@@ -1,5 +1,5 @@
-public class Javatest {
-    public static void main(String args[]) {
-        System.out.println("Hello World");}
+public class Javatest { //class declaration
+    public static void main(String args[]) { //method/function
+        System.out.println("Hello World");} //statement
     }
 
