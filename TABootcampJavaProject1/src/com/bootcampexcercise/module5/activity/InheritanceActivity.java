@@ -10,20 +10,19 @@ public class InheritanceActivity {
 
         p.setName("Sarah Johnson");
         p.setAge(21);
-
         System.out.println("-----------------------------");
         //Create Employee object e and
         // set salary as 70000.00, title as Developer, age as 32 and name as Shawn Cun
-        Employee_I employee = new Employee_I();
-        employee.salary(70000.00);
-        employee.setTitle("Developer");
-        employee.name("Shawn Cun");
-        employee.age("32");
+        Employee_I e = new Employee_I();
+        e.setSalary(70000.00);
+        e.setTitle("Developer");
+        e.setName("Shawn Cun");
+        e.setAge(32);
 
         // Print Info using Employee object
         System.out.println("-----------------------------");
-        System.out.println("Employee's Grade is  : " + employee.getSalary());
-        System.out.println("Employee's School is : " + employee.getTitle());
+        System.out.println("Employee's Salary is  : " + e.getSalary());
+        System.out.println("Employee's Title is : " + e.getTitle());
 
         // Print Info using Person object
         System.out.println("-----------------------------");
@@ -31,5 +30,4 @@ public class InheritanceActivity {
         System.out.println("Person's Age is     : " + p.getAge());
 
     }
-
 }

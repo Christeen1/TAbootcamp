@@ -18,6 +18,7 @@ public class Person_I {
 
     //TODO: Write parameterized constructor with variables name and age
     public Person_I(String name, int age) {
+
         this.name = name;
         this.age = age;
     }
@@ -38,9 +39,7 @@ public class Person_I {
         return age;
     }
 
-    //TODO: write setter for int age
-    public void SetAge(int age) {
+    public void setAge (int age) {
         this.age = age;
     }
-
 }

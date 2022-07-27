@@ -6,20 +6,21 @@ public class Employee_I extends Person_I {
     private double salary;
     private String title;
 
+
     //Behavior
 
     //TODO: write default constructor. Print 'I'm an Employee_I Constructor'
     public Employee_I() {
-        System.out.println(" I'm an Employee_I constructor");
+        System.out.println("I'm an Employee_I constructor");
     }
 
     //TODO: write getter for int salary
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
     //TODO: write setter for int salary
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
@@ -32,6 +33,5 @@ public class Employee_I extends Person_I {
     public void setTitle(String Title) {
         this.title = title;
     }
-
-
 }
+
