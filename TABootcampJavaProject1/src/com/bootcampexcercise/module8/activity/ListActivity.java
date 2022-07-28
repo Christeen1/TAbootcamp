@@ -1,5 +1,4 @@
 package com.bootcampexcercise.module8.activity;
-        import com.bootcampexcercise.module7.activity.Sample.Sample2;
 
         import java.util.Iterator;
         import java.util.List;
